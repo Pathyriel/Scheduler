@@ -3,6 +3,7 @@ package
 	import flash.filesystem.File;
 	import flash.filesystem.FileMode;
 	import flash.filesystem.FileStream;
+	import flash.net.ObjectEncoding;
 	import flash.net.registerClassAlias;
 	import flash.utils.ByteArray;
 	import flash.utils.CompressionAlgorithm;
@@ -18,6 +19,8 @@ package
 			//var f:File = File.applicationStorageDirectory.resolvePath(fileName);
 			var f:File = File.desktopDirectory.resolvePath(fileName);
 			var fs:FileStream = new FileStream();
+			
+			trace("fileName: " + f.nativePath);
 			
 			try
 			{
@@ -58,11 +61,11 @@ package
 			
 			if(fs)
 			{
+				registerClassAlias("User", User);
 				try
 				{
 					fs.readBytes(bytes);
 					fs.close();
-					trace(bytes.position);
 				}
 				catch(e:Error)
 				{

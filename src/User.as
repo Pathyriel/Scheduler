@@ -1,6 +1,6 @@
 package 
 {
-	public class User
+	public class User 
 	{
 		public var name:String;
 		public var age:int;
