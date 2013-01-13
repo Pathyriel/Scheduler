@@ -1,0 +1,32 @@
+{
+    "ranks": [
+        {
+            "name": "Safe Side",
+            "val" : "ss"
+        },
+        {
+            "name": "Li'l Champions",
+            "val" : "lc"
+        },
+        {
+            "name": "Beginner (white - orange)",
+            "val" : "beg"
+        },
+        {
+            "name": "Intermediate (purple - green)",
+            "val" : "int"
+        },
+        {
+            "name": "Advanced (Browns)",
+            "val" : "adv"
+        },
+        {
+            "name": "Black",
+            "val" : "black"
+        },
+        {
+            "name": "Kickboxing",
+            "val" : "kb "
+        }
+    ]
+}

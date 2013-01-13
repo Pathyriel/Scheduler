@@ -1,0 +1,24 @@
+{
+    "ages": [
+        {
+            "name": "Safe Side (3-5)",
+            "val" : "ss"
+        },
+        {
+            "name": "Li'l Champions (6-8)",
+            "val" : "lc"
+        },
+        {
+            "name": "Juniors (9-12)",
+            "val" : "j"
+        },
+        {
+            "name": "Adults (13+)",
+            "val" : "a"
+        },
+        {
+            "name": "BBC (all ages)",
+            "val" : "bbc"
+        }
+    ]
+}

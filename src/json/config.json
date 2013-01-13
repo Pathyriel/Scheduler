@@ -1,0 +1,20 @@
+{
+    "config": [
+        {
+            "name": "classes",
+            "path": "json/classes.json"
+        },
+        {
+            "name": "ages",
+            "path": "json/ages.json"
+        },
+        {
+            "name": "ranks",
+            "path": "json/ranks.json"
+        },
+        {
+            "name": "users",
+            "path": "json/users.json"
+        }
+    ]
+}

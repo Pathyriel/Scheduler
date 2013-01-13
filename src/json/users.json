@@ -1,0 +1,44 @@
+{
+    "users": [
+        {
+            "name": "Ric",
+            "age": "a",
+            "rank": "black",
+            "bbc": "true",
+            "kb" : "false",
+            "startClass": "false",
+            "filterClass": "false",
+            "addStartButton": "false"
+        },
+        {
+            "name": "Rach",
+            "age": "a",
+            "rank": "beg",
+            "bbc": "false",
+            "kb" : "true",
+            "startClass": "false",
+            "filterClass": "false",
+            "addStartButton": "false"
+        },
+        {
+            "name": "Malcolm",
+            "age": "j",
+            "rank": "int",
+            "bbc": "true",
+            "kb" : "false",
+            "startClass": "false",
+            "filterClass": "false",
+            "addStartButton": "false"
+        },
+        {
+            "name": "Jayne",
+            "age": "lc",
+            "rank": "lc",
+            "bbc": "false",
+            "kb" : "false",
+            "startClass": "false",
+            "filterClass": "false",
+            "addStartButton": "false"
+        }
+    ]
+}
